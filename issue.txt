@@ -1,0 +1,28 @@
+AI Newsletter Performance – Last 10 Issues
+Issue #1
+
+Date: Jun 20, 2025
+
+Subject: AI Weekly #1 – The Dawn of Multimodal AI
+
+Open Rate: 38%
+
+Click Rate: 10%
+
+Avg Read Time: 2.8 min
+
+Top Section: Research Papers
+
+Top Clicked Link: Google Gemini Demo
+
+Topic Category: Multimodal AI
+
+Social Shares: 35
+
+Device: 72% Mobile / 28% Desktop
+
+Geography: US (35%), EU (30%), IN (20%)
+
+Subscriptions Gained: 100
+
+Unsubscribes: 9
