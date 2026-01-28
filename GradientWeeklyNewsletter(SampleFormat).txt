@@ -1,0 +1,58 @@
+
+
+#Gradient Weekly Newsletter (Sample Format)
+
+## Intro
+Welcome to this week’s edition of ***Gradient Weekly*** — your go to roundup of the most important developments in artificial intelligence. Whether you are a researcher, developer, or simply curious about the future of AI, we have curated the biggest updates, tools and ideas that matter.
+
+
+## Big Story of the Week 
+"Agentic Al: From Chatbots to Autonomous Problem-Solvers**
+This week, the Al community has been buzzing about the rapid growth of "agentic Al systems**- Al models that don't just respond, but plan, use tools, and take actions autonomously.
+Companies like OpenAl, Anthropic, and LangChain have rolled out new frameworks enabling Al to chain tasks, integrate APIs, and act like intelligent assistants.
+Why it matters: This could be the next big leap after chatbots-moving toward "true digital co-workers".
+
+## Quick Updates
+1. "Meta released LLAMA 3.2" with improved reasoning and multilingual support.
+2. "NVIDIA announced H200 GPU** shipping in early 2026-optimized for Al inference at scale.
+3. "Google DeepMind" open-sourced a new multimodal dataset for robotics.
+4. "Stability Al" rolled out Stable Audio v2 with long-form generative capabilities.
+5. "Microsoft Copilot" integrated with Outlook and Excel on mobile.
+
+## Top Research Papers
+1.”DeepSeek-R1" Scaling reinforcement learning for reasoning in LLMs.
+2.”MoE 2.0: Efficient sparse mixture-of-experts architecture.
+3.”VideoPoet: Google's model that generates coherent videos from text prompts.
+4.”Self-Discovering Agents: Anthropic's work on autonomous agent collaboration
+
+## Top GitHub Repos of the Week
+
+-[LangGraph](https://github.com/langchain-ailanggraph) - Build agent workflows with LLMS.
+
+-[Ollama](https://github.com/jmorganca/ollama) - Run open-source LLMs locally
+
+## Learning Blog of the Week
+
+-[The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) by Jay Alammar -A timeless and visual guide to understanding the core architecture behind modern Al.
+
+
+##Top Al Products of the Week 
+-“Perplexity Pro-Al-powered search assistant with citations.
+-“Runway Gen-3 Alpha-Text-to-video creative suite.
+-“Replit Ghostwriter - Al coding assistant.
+-“Notion Al-Integrated Al for productivity workflows.
+
+## Top Tweets of the Week
+-“Agentic Al is the bridge between chatbots and true digital workers.”- (@sama)(https://twitter.com/sama)
+-“Every startup pitch now has an Al angle. The gold rush is real"-(@karpathy)(https://twitter.com/karpathy)
+-"Multimodality isn't a feature, it's the future."[@ylecun](https://twitter.com/ylecun)
+
+##Closing Note
+
+Thanks for tuning in to this week's edition of Al Weekly!
+
+Al is moving at lightning speed, but remember-it's not just about keeping up with the latest headlines. It's about "understanding, experimenting, and building". Until next week, stay curious and keep creating.
+
+
+
+**End of Newsletter**

@@ -1,0 +1,134 @@
+
+
+
+
+News Collection Plan
+
+You are an AI Newsletter Research Agent, your task id to generate fresh newsletter content by combining past performance, insights, content ideas, audience feedback and community trends. Follow the instructions carefully-
+
+
+1. Read Source Files from Google Drive
+
+-Access my Google Drive folder Al Newsletter Demo.
+-Read the following files:
+	ai_newsletter_performance → Contains past 10 newsletter performance data.
+	ai_newsletter_content_ideas→ Contains high-potential content themes.
+
+2. Check Audience Feedback
+-Access my recent emails.
+-Read user feedback messages related to the Al newsletter.
+-Use this feedback to identify recurring requests (e.g., more policy, beginner-friendly content, hands-on tutorials).
+
+3. Identify Research Focus
+-From ai newsletter_performance.csy, analyze which topics and sections performed best (highest open rates, click-throughs, subscriptions gained).
+-From ai newsletter_content_ideas.md, select relevant trending content ideas to guide research.
+-From email feedback, integrate audience preferences into deciding which topics to prioritize.
+
+
+
+Part A: Perform Tailored Web Research
+-Search the web for current Al news based on the identified focus areas.
+-Find 1 Big Story of the Week (most impactful news).
+-Find 3-5 Quick Updates (smaller but relevant Al developments).
+
+Format (Markdown):
+
+#Al Newsletter Research Results - Web News
+
+##Big Story of the Week
+
+-Headline:** <Title of the story>
+- "Summary: Une paragraph summary (3-5 sentences).
+**Source:** [Link to original article]
+
+## Quick Updates
+1. **Headline:** <Title>
+**Summary:** 2-3 sentences.
+**Source:** [Link]
+(continue for 3-5 updates)
+Save as: newsletter web research results.md in Desktop/Al Newsletter/.
+
+Part B: Rerform Tailored Research on arXiv
+-Search arxiv.org for the most recent and relevant Al/ML research papers.
+-Prioritize papers that align with the identified research focus.
+-Select 1-3 top research papers that are both recent and impactful/popular.
+
+Format (Markdown):
+
+#Al Newsletter Research Results - Research Papers
+
+## Featured Research Papers
+
+1. Name of the Paper**
+**Publisher:** <arXiv/Institution>
+**Description:** One paragraph summary (3-5 sentences).
+**Possible Impact:** Explanation of how this paper could influence Al research or application 
+**Download Link:** [PDF Link)
+
+(continue for all selected papers)
+Save as: newsletter_research_papers.md in Desktop/Al Newsletter/.
+
+Part C: Perform GitHub Research
+-Search GitHub for trending AI/ML repositories (recent week).
+-Prioritize projects that match research focus (popular tools, frameworks, or implementations of recent papers).
+-Select 3-5 top repos.
+
+Format (Markdown):
+
+#Al Newsletter Research Results - GitHub Repos
+
+##Top GitHub Repos of the Week
+
+1. **Repo Name** - Short description
+
+-★Stars this week: XXX
+- [GitHub Link]
+(continue for 3-5 repos)
+
+Save as: newsletter_github_repos.md in Desktop/Al Newsletter/.
+
+
+
+Part D: Perform Product Hunt Research
+-Search Product Hunt for trending Al/ML products launched in the last week.
+-Prioritize products that align with identified research focus (tools, apps, startups relevant to your content ideas + user feedback).
+-Select 3-5 top products.
+
+Format (Markdown):
+
+#Al Newsletter Research Results - Product Hunt
+
+##Top Al Products of the Week
+1. **Product Name** - Short description
+Upvotes: XXX
+- [Product Hunt Link]
+(continue for 3-5 products)
+Save as: newsletter_ai_products.md in Desktop/Al Newsletter/.
+
+Part E: Perform Twitter Research
+-Use the Twitter tool to search for most engaging Al tweets from the past week.
+-Include tweets from top Al leaders (e.g., Sam Altman, Andrej Karpathy, Yann LeCun) and viral community posts.
+-Select 3-5 top tweets.
+
+Format (Markdown):
+
+#Al Newsletter Research Results - Twitter
+
+##Top Al Tweets of the Week
+
+1.**@username** — *”Tweet text snippet...".
+-Likes: XXX |
+-Retweets: XXX
+- [Tweet Link]
+
+2. **@username**  — *”Tweet text snippet..."*
+-Likes: XXX |
+- [Tweet Link]
+-Retweets: XXX
+
+(continue for 3-5 tweets)
+Save as: newsletter_twitter_highlights.md in Desktop/Al Newsletter/
+
+
+
+
