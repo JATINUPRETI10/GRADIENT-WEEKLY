@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Week in AI</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header Context -->
+        <div class="header-top">
+            <div style="font-size: 0.9rem; color: var(--text-secondary);">
+                <span>Daily Digest for <strong>jainam@example.com</strong></span>
+            </div>
+            <a href="#" class="user-prefs">
+                <span>Preferences</span>
+            </a>
+        </div>
+
+        <!-- 1. Introduction -->
+        <section class="intro-card card">
+            <h1 class="intro-title">Welcome to This Week in AI</h1>
+            <p class="intro-text">Curated insights, breakthrough papers, and the latest tools in artificial
+                intelligence, delivered beautifully.</p>
+        </section>
+
+        <!-- 2. Story of the Week -->
+        <div class="section-label">Story of the Week</div>
+        <section class="story-card card">
+            <div class="story-content">
+                <h2>The Rise of Reasoning Models: What Next for LLMs?</h2>
+                <p>New architectures are pushing the boundaries of logical deduction and planning. We explore the
+                    implications for agents and real-world problem solving.</p>
+                <a href="#" class="btn-link">Read Deep Dive →</a>
+            </div>
+            <div class="story-image-wrapper">
+                <img src="ai_story_thumbnail.png" alt="AI Brain Visualization" class="story-image">
+            </div>
+        </section>
+
+        <div class="split-section">
+            <!-- 3. Quick Updates -->
+            <div>
+                <div class="section-label">5 Quick Updates</div>
+                <div class="card">
+                    <div class="update-item">
+                        <span class="update-icon">•</span>
+                        <div class="update-content">
+                            <h4>OpenAI Releases New Voice Mode</h4>
+                            <p>Real-time conversational capabilities available to all Plus users.</p>
+                        </div>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-icon">•</span>
+                        <div class="update-content">
+                            <h4>Google DeepMind's AlphaFold 3</h4>
+                            <p>Predicting interactions between proteins and DNA with high accuracy.</p>
+                        </div>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-icon">•</span>
+                        <div class="update-content">
+                            <h4>Meta Llama 3.5 Rumors</h4>
+                            <p>Leaked benchmarks suggest massive improvements in coding tasks.</p>
+                        </div>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-icon">•</span>
+                        <div class="update-content">
+                            <h4>NVIDIA Stock Hits Record</h4>
+                            <p>AI hardware demand continues to drive market growth.</p>
+                        </div>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-icon">•</span>
+                        <div class="update-content">
+                            <h4>Anthropic & AWS Partnership</h4>
+                            <p>Strategic collaboration to scale safety-focused AI infrastructure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Research Papers -->
+            <div>
+                <div class="section-label">Research Papers</div>
+
+                <div class="paper-item">
+                    <a href="#" class="paper-title">Attention Is Not All You Need Anymore</a>
+                    <p class="paper-desc">Proposing a hybrid Mamba-Transformer architecture for efficient long-context processing.</p>
+                    <div class="tag-row">
+                        <span class="tag-btn tag-blue">LLM</span>
+                        <span class="tag-btn tag-purple">Architecture</span>
+                    </div>
+                </div>
+
+                <div class="paper-item">
+                    <a href="#" class="paper-title">Gaussian Splatting for VR</a>
+                    <p class="paper-desc">Real-time rendering improvements for immersive environments using novel splatting techniques.</p>
+                    <div class="tag-row">
+                        <span class="tag-btn tag-green">Vision</span>
+                        <span class="tag-btn tag-orange">VR</span>
+                    </div>
+                </div>
+
+                <div class="paper-item">
+                    <a href="#" class="paper-title">Self-Correcting Code Agents</a>
+                    <p class="paper-desc">Iterative debugging loops that improve code generation pass rates by 30%.</p>
+                    <div class="tag-row">
+                        <span class="tag-btn tag-blue">Agents</span>
+                        <span class="tag-btn tag-gray">Coding</span>
+                    </div>
+                </div>
+
+                <div class="paper-item">
+                    <a href="#" class="paper-title">Audio-Visual Learning at Scale</a>
+                    <p class="paper-desc">Training unified models on 1M hours of video data.</p>
+                    <div class="tag-row">
+                        <span class="tag-btn tag-purple">Multimodal</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 5. GitHub Repositories -->
+        <div class="section-label">GitHub Repositories</div>
+        <div class="repos-grid">
+            <div class="card repo-card">
+                <div>
+                    <div class="repo-header">
+                        <div class="repo-name">fabric</div>
+                        <div class="repo-stars">14.5k</div>
+                    </div>
+                    <p class="repo-desc">An open-source framework for augmenting humans using AI. Modular prompts and patterns.</p>
+                </div>
+            </div>
+
+            <div class="card repo-card">
+                <div>
+                    <div class="repo-header">
+                        <div class="repo-name">ollama</div>
+                        <div class="repo-stars">45.2k</div>
+                    </div>
+                    <p class="repo-desc">Get up and running with Llama 3, Mistral, Gemma, and other large language models locally.</p>
+                </div>
+            </div>
+
+            <div class="card repo-card">
+                <div>
+                    <div class="repo-header">
+                        <div class="repo-name">crewAI</div>
+                        <div class="repo-stars">12.1k</div>
+                    </div>
+                    <p class="repo-desc">Framework for orchestrating role-playing, autonomous AI agents. By engineers, for engineers.</p>
+                </div>
+            </div>
+
+            <div class="card repo-card">
+                <div>
+                    <div class="repo-header">
+                        <div class="repo-name">gemma.cpp</div>
+                        <div class="repo-stars">5.8k</div>
+                    </div>
+                    <p class="repo-desc">Lightweight, standalone C++ inference engine for Google's Gemma models.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. Quick Tutorial -->
+        <div class="section-label">Quick Tutorial</div>
+        <div class="card tutorial-card">
+            <img src="ai_tutorial_thumbnail.png" alt="Robot Learning" class="tutorial-thumbnail">
+            <div class="tutorial-content">
+                <h3>Build Your First RAG Pipeline</h3>
+                <p>Learn how to connect your private data to an LLM using LangChain and Pinecone in less than 30 lines of Python.</p>
+                <a href="#" class="btn btn-accent">Start Learning →</a>
+            </div>
+        </div>
+
+        <!-- 7. AI Products -->
+        <div class="section-label">AI Products</div>
+        <div class="products-section">
+            <div class="products-scroller">
+                <div class="card product-card">
+                    <div class="product-icon">P</div>
+                    <div class="product-name">Perplexity</div>
+                    <div class="product-desc">AI-powered search engine.</div>
+                </div>
+                <div class="card product-card">
+                    <div class="product-icon">C</div>
+                    <div class="product-name">Claude 3</div>
+                    <div class="product-desc">Safe, smart, capable assistant.</div>
+                </div>
+                <div class="card product-card">
+                    <div class="product-icon">M</div>
+                    <div class="product-name">Midjourney</div>
+                    <div class="product-desc">Hyper-realistic image gen.</div>
+                </div>
+                <div class="card product-card">
+                    <div class="product-icon">S</div>
+                    <div class="product-name">Suno</div>
+                    <div class="product-desc">Make music with AI.</div>
+                </div>
+                <div class="card product-card">
+                    <div class="product-icon">R</div>
+                    <div class="product-name">Replit</div>
+                    <div class="product-desc">Collaborative AI IDE.</div>
+                </div>
+                <div class="card product-card">
+                    <div class="product-icon">N</div>
+                    <div class="product-name">Notion AI</div>
+                    <div class="product-desc">Connected workspace brain.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 8. Top X Posts -->
+        <div class="section-label">Top X Posts</div>
+        <div class="posts-grid">
+            <div class="card post-card">
+                <div class="post-header">
+                    <strong>@SamAltman</strong>
+                    <span class="post-icon">X</span>
+                </div>
+                <p class="post-text">AGI will be the most significant technological shift in human history. We are just getting started.</p>
+                <div class="post-engagement">
+                    <div class="engage-item">12k Likes</div>
+                    <div class="engage-item">3.4k Shares</div>
+                    <div class="engage-item">890 Replies</div>
+                </div>
+            </div>
+
+            <div class="card post-card">
+                <div class="post-header">
+                    <strong>@AndrewYNg</strong>
+                    <span class="post-icon">X</span>
+                </div>
+                <p class="post-text">AI is the new electricity. It will transform every industry, from healthcare to agriculture.</p>
+                <div class="post-engagement">
+                    <div class="engage-item">8.5k Likes</div>
+                    <div class="engage-item">2.1k Shares</div>
+                </div>
+            </div>
+
+            <div class="card post-card">
+                <div class="post-header">
+                    <strong>@YLeCun</strong>
+                    <span class="post-icon">X</span>
+                </div>
+                <p class="post-text">Auto-regressive LLMs are not the final answer. We need world models for true intelligence.</p>
+                <div class="post-engagement">
+                    <div class="engage-item">5.2k Likes</div>
+                    <div class="engage-item">1.8k Shares</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; color: var(--text-secondary); padding: 40px; font-size: 0.9rem;">
+            &copy; 2024 This Week in AI. Designed with love.
+        </div>
+
+    </div>
+
+</body>
+</html>
